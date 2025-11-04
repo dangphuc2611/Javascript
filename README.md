@@ -21,3 +21,12 @@
   - Global Scope
   - Block Scope
   - Function Scope
+
+3. Data Type
+  - String
+  - Number
+  - BigInt
+  - Boolean
+  - Undefined
+  - Null
+  - Object
