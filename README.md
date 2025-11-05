@@ -16,8 +16,8 @@
   - Pascal Casing(VariableName)
   - Scream Snake Casing(VARIABLE_NAME)
 - Hosting
-  - Hosting are the way JS move our variable and function declaration on top of the scope(just work for declare not assign variable) *
-- Variable scope *
+  - Hosting are the way JS move our variable and function declaration on top of the scope(just work for __var__ declaration not assign variable)
+- Variable scope 
   - Global Scope
   - Block Scope
   - Function Scope
@@ -30,3 +30,4 @@
   - Undefined
   - Null
   - Object
+
