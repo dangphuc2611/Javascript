@@ -1,21 +1,21 @@
 # Javascript
 
 
-1. What's is Javascript?
+1. #### What's is Javascript?
 - Javascript is a programming language that make our website more interactive
 - Javascript is OOP(Object-Oriented Programming) Language build around a prototype model
 - Javascript was created by Brendan Eich and first releast in 1995
 
-2. Javascript Variable
+2. #### Javascript Variable
 - Variable Declaration(JS have 3 different types to declare the variable)
-  - var (var variableName;)
-  - let (let variableName;)
-  - const (const variableName;)
+  - var ```var variableName;```
+  - let ```let variableName;```
+  - const ```const variableName;```
 - Variable Name Rules
-  - Snake Casing(variable_name)
-  - Camel Casing(variableName)
-  - Pascal Casing(VariableName)
-  - Scream Snake Casing(VARIABLE_NAME)
+  - Snake Casing ```snake_casing```
+  - Camel Casing ```variableName```
+  - Pascal Casing ```VariableName```
+  - Scream Snake Casing ```VARIABLE_NAME```
 - Hosting
   - Hosting are the way JS move our variable and function declaration on top of the scope(just work for __var__ declaration not assign variable)
 - Variable scope 
@@ -23,7 +23,7 @@
   - Block Scope
   - Function Scope
 
-3. Data Type
+3. #### Data Type
   - String
   - Number
   - BigInt
@@ -36,7 +36,7 @@
     - Prototypal Inheritance
       - The Prototypal Inheritance is a feature in javascript used to add methods and properties in objects. It is a method by which an object can inherit the properties and methods of another object
 
-4. Type Casting
+4. #### Type Casting
    - Implicit Type Casting
      - EX:
        ```
@@ -49,7 +49,88 @@
        let a = "123" //string
        let b = Number(a) // Number(123)
        ```
+5. #### Data Structure
+   - Keyed Collections
+     - Map
+     - Weak Map
+     - Set
+     - Weak Set
+   - Structured data
+     - JSON
+   - Indexed collections
+     - Array
+     - Typed Array
 
+6. #### Equality Comparisons
+  - ```==```
+  - ```===```
+  - ```Object.is(value, value)```
+7. #### Loops and Iterations
+  - For
+    ```
+      for(let i = 0; i < 10; i ++){
+        console.log(i);
+      }
+    // 1 2 3 4 5 6 7 8 9 10
+    ```
+  - While
+    ```
+      let i = 0;
+    
+      while(i < 10){
+        console.log(i)
+        i++
+      }
+    // 1 2 3 4 5 6 7 8 9 10
+    ```
+  - Do While
+    ```
+      let i = 0;
+    
+      do {
+        console.log(i);
+        i++;
+      } while(i < 10)
+    // 1 2 3 4 5 6 7 8 9 10
+    ```
+  - For...of(loop through Array)
+    ```
+      let a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+      for(let i of a){
+        console.log(i);
+      }
+    // 1 2 3 4 5 6 7 8 9 10
+    ```
+  - For...in(Loop in Object to get key-value pair)
+    ```
+      let object = {
+        a: 1,
+        b: 2,
+        c: 3
+      }
+      
+      for (let key in object) {
+        console.log(key + ": " + object[key]);
+      }
+    // a: 1, b: 2, c: 3
+    ```
+  - Break/Continue
+    ```
+      for (let i = 1; i <= 10; i++) {
+        if (i === 5) {
+          continue; // skip number 5
+        }
+        if (i === 8) {
+          break; // stop the loop when i = 8
+        }
+        console.log(i);
+      }
+      // 1 2 3 4 6 7
+    ```
+      
+8. Controll Flow
+   
       
       
 
