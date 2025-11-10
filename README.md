@@ -174,6 +174,17 @@
     - Throw Statement
       - The Throw Statement throws a user-defined exception. Execution of the current function will stop(the statements after throw won't be executed).
     - Error Object *****
-      
+
+9. Expressions and Operators
+  - Conditional operators
+  - Comma operators
+  - Unary Operators
+  - Assignment Operators
+  - Comparison Operators
+  - Arithmetic operators
+  - Bitwise operators
+  - Logical Operators
+  - BigInt Operators
+  - String Operators
       
 
