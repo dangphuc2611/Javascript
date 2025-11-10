@@ -59,7 +59,9 @@
      - JSON
    - Indexed collections
      - Array
+       - Array is a special type of object that store multiple values in a variable
      - Typed Array
+       - Typed Array is special kind of array used to store only 1 specific data type
 
 6. #### Equality Comparisons
   - ```==```
