@@ -132,7 +132,48 @@
     ```
       
 8. Controll Flow
-   
+  - Conditional statements
+    - if...else
+      ```
+        if(trueConditional){
+          // Execute this code block
+        } else {
+          // Execute this code block
+        }
+      ```
+    - switch
+      ```
+        switch (expression) {
+          case value1:
+            //Statements executed when the result of expression matches value1
+            break;
+          case value2:
+            //Statements executed when the result of expression matches value2
+            break;
+          ...
+          case valueN:
+            //Statements executed when the result of expression matches valueN
+            break;
+          default:
+            //Statements executed when none of the values match the value of the expression
+            break;
+        }
+      ```
+  - Exception Handling
+  - ! Try catch only handle Runtime Error not Parsetime Error
+    - try/catch/finally
+      ```
+      try {
+        // Code that may cause an error
+      } catch (error) {
+        // Code to handle the error
+      } finally {
+        // Code that always runs, no matter what
+      }
+      ```
+    - Throw Statement
+      - The Throw Statement throws a user-defined exception. Execution of the current function will stop(the statements after throw won't be executed).
+    - Error Object *****
       
       
 
