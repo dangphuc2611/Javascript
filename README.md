@@ -176,7 +176,7 @@
     - Error Object *****
 
 9. Expressions and Operators
-  - Conditional operators
+  - Conditional operators ``` +, -, *, **, /, %, ++, --```
   - Comma operators
   - Unary Operators
   - Assignment Operators
