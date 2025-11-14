@@ -176,12 +176,12 @@
     - Error Object *****
 
 9. Expressions and Operators
-  - Conditional operators ``` +, -, *, **, /, %, ++, --```
-  - Comma operators
+  - Conditional operators ```condition ? val_for_true : val_for_false```
+  - Comma operators 
   - Unary Operators
   - Assignment Operators
   - Comparison Operators
-  - Arithmetic operators
+  - Arithmetic operators ``` +, -, *, **, /, %, ++, --```
   - Bitwise operators
   - Logical Operators
   - BigInt Operators
