@@ -176,15 +176,29 @@
     - Error Object *****
 
 9. Expressions and Operators
-  - Conditional operators ```condition ? val_for_true : val_for_false```
-  - Comma operators 
+  - Conditional operators```condition ? val_for_true : val_for_false```
+  - Comma operators
+    - Comma operator ```,``` are operater let you evaluate multiple expressions in one statement
   - Unary Operators
-  - Assignment Operators
-  - Comparison Operators
+    - Unari operator is an operator that works on only one operand (one value)
+    ```
+    +
+    -
+    ++
+    --
+    !
+    ```
+  - Assignment Operators ```=```
+    - Assignment Operator used to assign a value to a variable
+  - Comparison Operators ```<, >, <=, >=, ==, ===, !=, !==```
+    - Comparison operators compare two values and return true or false
   - Arithmetic operators ``` +, -, *, **, /, %, ++, --```
+    - Arithmetic operators perform mathematical calculations on numbers
   - Bitwise operators
   - Logical Operators
   - BigInt Operators
   - String Operators
-      
+
+10. Function
+    - 
 
