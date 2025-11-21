@@ -199,6 +199,6 @@
   - BigInt Operators
   - String Operators
 
-10. Function
-    - 
+10. Function (Function are the blocks of code and excecute whenever they are invoke so we can reuse the code)
+  - 
 
