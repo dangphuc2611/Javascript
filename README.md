@@ -200,5 +200,88 @@
   - String Operators
 
 10. Function (Function are the blocks of code and excecute whenever they are invoke so we can reuse the code)
-  - 
+  - Function Parameters
+    - Default parameter
+      ```
+        function defaultParameter(parameter = 1){
+          console.log(parameter)
+        }
+
+        defaultParameter(); // result: 1
+      ```
+    - Rest(The rest parameter syntax allows a function to accept an indefinite number of arguments as an array)
+      ```
+        function restParamenter(...Args){
+          for (let item in Args){
+            console.log(item)
+          }
+        }
+
+        restParamenter(1, 2, 3, 4, 5); //result: 
+      ```
+  - Scope & Function Stack
+    - Scope:
+      - Global scope: The default scope for all code running in script mode.
+      - Module scope: The scope for code running in module mode.
+      - Function scope: The scope created with a function.
+      - Block scope: The scope created with a pair of curly braces (a block).
+
+    - Function Stack
+      - The call stack is a place where JavaScript keeps track of which function is currently running and which function should run next.
+      ```
+        function a() {
+          b();
+        }
+        
+        function b() {
+          c();
+        }
+        
+        function c() {
+          console.log("Hello");
+        }
+        
+        a();
+      // a() -> b() -> c() -> log("Hello")
+      ```
+
+  - Arguments object
+    - Arguments object is Array like(kind of Build-in Object) that can accessible inside functions that contains the values of the arguments passed to that function
+    ```
+    function testFunction(){
+      for(let item of arguments){
+        console.log(item)
+      }
+    }
+
+    testFunction(1, 2, 3); //result: 1 2 3
+    ```
+  - Arrow Functions
+    - Arrow Function is a new way of creating functions with the '=>' operator with a shorter syntax.
+    ```
+    const sayHello = () => {
+        console.log(`Hello from Arrow Function !`);
+    }
+    ```
+
+  - IIFEs
+    - An IIFE (Immediately Invoked Function Expression aka elf-executing anonymous function) is an idiom in which a JavaScript function runs as soon as it is defined
+    ```
+    // standard IIFE
+    (function () {
+      // statements…
+    })();
+    
+    // arrow function variant
+    (() => {
+      // statements…
+    })();
+    
+    // async IIFE
+    (async () => {
+      // statements…
+    })();
+    ```
+  - Built-in Functions
+    
 
