@@ -283,5 +283,52 @@
     })();
     ```
   - Built-in Functions
+
+11. DOM APIs
+  - DOM(Document Object Model) is a programming interface that allow Javascript interact with website.
+  - DOM Tree
+    - The DOM Tree is a tree-like structure that browsers create from your HTML. It represents every element as a node, connected like a family tree.
+```
+[Document]
+   |
+   ▼
+ [html]
+   ├──────────────┐
+   ▼              ▼
+[head]          [body]
+   |              |
+   ▼              ├────────────┐
+[title]        [h1]          [p]
+   |              |            |
+   ▼              ▼            ▼
+"Hello"       "Welcome"   "Some text"
+
+```
+  - BOM(Browser Object Model) is a set of objects provided by the browser that allows JavaScript to interact with the browser itself, not the webpage’s content.
+    - window
+    ```
+    window.alert("Hello");
+    window.setTimeout(() => console.log("Hi"), 1000);
+    ```
+    
+    - location — URL information
+    ```
+    console.log(location.href);     // full URL
+    location.href = "https://google.com"; // redirect
+    location.reload();              // reload page
+ 
+    ```
+
+    - history — browser navigation
+    ```
+    history.back();    // go back
+    history.forward(); // go forward
+    
+    // SPA routing example
+    history.pushState({page: "home"}, "", "/home");
+    ```
+
+    - navigator — browser/device info
+    
     
 
