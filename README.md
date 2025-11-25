@@ -438,8 +438,10 @@
 
       - preventDefault()
 
+12. Strict Mode
+  - Strict Mode is a mode that changes Javascript behavior to catch the mistake early
 
-
+13. 
 
 
 
