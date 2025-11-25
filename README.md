@@ -346,5 +346,102 @@
     console.log(localStorage.getItem("theme"));
 
     ```
+    
+  - Selecting Elements
+    - Old Methods
+    ```
+    document.getElementById()
+    document.getElementsByClassName()
+    document.getElementsByTagName()
+    ```
+    - Modern Methods
+    ```
+    document.querySelector()
+    document.querySelectorAll()
+    ```
+  
+  - Changing Content & Attributes
+    - Content
+    ```
+    .textContent
+    .innerText
+    .innerHTML
+    ```
+    - Attributes
+    ```
+    .getAttribute()
+    .setAttribute()
+    .removeAttribute()
+    .id
+    .href
+    .src
+    .value
+    ```
+    
+  - Working With CSS and Classes
+    - Inline styling
+    ```
+    element.style
+    ```
+    - classList
+    ```
+    add()
+    remove()
+    toggle()
+    contains()
+    ```
+    
+  - Creating / Inserting / Removing Elements
+  ```
+  document.createElement()
+  append()
+  appendChild()
+  prepend()
+  insertBefore()
+  remove()
+  replaceChild()
+  ```
+
+  - Event Handling
+    - Basic events
+    ```
+    click
+    input
+    change
+    keyup
+    submit
+    mouse events
+    ```
+    
+  - Event Propagation *
+    
+  - DOM Tree Traversal
+  ```
+  parentElement
+  children
+  nextElementSibling
+  previousElementSibling
+  firstElementChild
+  lastElementChild
+  ```
+  - Forms & Input Handling
+    - Input values
+    ```
+    .value
+    .checked
+    .selectedIndex
+    ```
+    - Form validation
+      - required fields
+
+      - custom validation
+
+      - preventDefault()
+
+
+
+
+
+
 
 
