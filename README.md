@@ -329,6 +329,22 @@
     ```
 
     - navigator — browser/device info
-    
-    
+    ```
+    console.log(navigator.userAgent);
+    console.log(navigator.onLine);
+    ```
+
+    - screen — screen/window size
+    ```
+    console.log(screen.width, screen.height);
+    console.log(window.innerWidth, window.innerHeight);
+    ```
+
+    - Storage (localStorage, sessionStorage)
+    ```
+    localStorage.setItem("theme", "dark");
+    console.log(localStorage.getItem("theme"));
+
+    ```
+
 
