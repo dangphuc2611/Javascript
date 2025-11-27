@@ -441,7 +441,12 @@
 12. Strict Mode
   - Strict Mode is a mode that changes Javascript behavior to catch the mistake early
 
-13. 
+13. This Keyword
+  - ___this___ = the “owner” of the function call.
+  - ___This___ is a special keyword that refers to the object that is currently executing the code. But the value of this changes depending on how a function is called — not where it is written.
+  - Using ___This___ in:
+    - 
+    
 
 
 
