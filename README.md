@@ -445,7 +445,31 @@
   - ___this___ = the “owner” of the function call.
   - ___This___ is a special keyword that refers to the object that is currently executing the code. But the value of this changes depending on how a function is called — not where it is written.
   - Using ___This___ in:
-    - 
+    - Method:
+      - "This" in method refers to current object
+      ```
+      const user = {
+        name: "Alice",
+        greet() {
+          console.log(this.user);
+        }
+      };
+      
+      user.greet();  // "Alice"
+      ```
+    - Function:
+      - "This" in Function refers to window Object
+      ```
+      function test() {
+        console.log(this);
+      }
+      
+      test();
+      ```
+    - Alone:
+      - This 
+    - Handler:
+    - Function:
     
 
 
